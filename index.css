@@ -1,0 +1,60 @@
+html {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+}
+
+body {
+  background-color: rgb(140, 182, 216);
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  color: blanchedalmond;
+  text-shadow: 2px 2px 3px black;
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+}
+
+#traduzido {
+  background-color: white;
+  margin-left: 10px;
+}
+
+.btn {
+  background-color: rgb(23, 185, 72);
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 2px 2px 5px black;
+}
+
+.btn:active {
+  background-color: rgb(18, 158, 60);
+  box-shadow: none;
+  outline-style: none;
+  border: none;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.txt {
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgb(56, 56, 56);
+  border: none;
+}
+
+.txt:focus {
+  outline: none;
+}
